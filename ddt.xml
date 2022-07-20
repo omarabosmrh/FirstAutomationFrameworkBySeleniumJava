@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopcommerce regression suite">
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="ddt">
+
+		<classes>
+			<class name="tests.userRegeisterationTestCasewithJavaFaker"/>
+			<class name="tests.userRegeisterationUsingDDTandDataProvider"/>
+			<class name="tests.userRegeisterationUsingDDTandProperitiesFile"/>
+			<class name="tests.userRegeisterationWithDDTandExelReader"/>
+			<class name="tests.userRegeisterationWithDDTCSVFile"/>
+			<class name="tests.userRegeisterationWithDDTFileJson"/>
+
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
